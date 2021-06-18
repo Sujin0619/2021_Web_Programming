@@ -47,6 +47,7 @@ body {
 }
 
 .submit-btn:hover{
+  /*버튼에 마우스를 갖다 대면, 그림자 생김*/
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.50);
 }
 .links {
