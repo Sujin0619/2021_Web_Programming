@@ -1,0 +1,60 @@
+* {
+  /*패딩까지 합쳐서 width와 height 구할 수 있도록*/
+  box-sizing: border-box;
+  font-family: 'Noto Sans KR', sans-serif;
+  
+}
+
+body {
+  margin: 0;
+  background-color: #1BBC9B;
+}
+
+.login-form { /*전체적인 연회색 로그인 박스*/
+  width: 300px;
+  background-color: #EEEFF1;
+  
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.text-field { 
+  /*아이디 & 비밀번호 입력 부분*/
+  font-size: 14px;
+  width: 100%;  /*패딩을 제외한 부분을 꽉 채운다는 뜻*/
+  
+  border: none;
+  border-radius: 5px;
+  
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.submit-btn {
+  /*로그인 버튼*/
+  font-size: 14px;
+  background-color: #1BBC9B;
+  color: white;
+  width: 100%;  /*패딩을 제외하고 꽉 채운다는 뜻*/ 
+  border-radius: 5px;
+  
+  padding: 10px;
+  border: none;
+}
+
+.submit-btn:hover{
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.50);
+}
+.links {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.links a {
+  font-size: 12px;
+  color: #9B9B9B;
+}
