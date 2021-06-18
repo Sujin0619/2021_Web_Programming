@@ -21,4 +21,9 @@ https://user-images.githubusercontent.com/80879131/122362331-01aa1d00-cf93-11eb-
 https://user-images.githubusercontent.com/80879131/122426110-f246c600-cfca-11eb-8194-579280a54b31.mov
 
 
+### 코딩의 민족
+https://user-images.githubusercontent.com/80879131/122516658-ff56ca00-d049-11eb-935c-46b1e6886db2.mov
+
+
+
 
