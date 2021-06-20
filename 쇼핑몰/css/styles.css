@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 992px;
+  font-family: "Helvetica";
+}
+
+/* navbar */
+.navbar{
+  height: 60px;  
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.navbar #logo{
+  /*가운데를 맞춘 x와 img를 네비바의 가운데에 맞추기*/
+  line-height: 60px;
+}
+
+.navbar #logo img{
+  /*x와 img의 가운데를 맞추기 위해*/
+  vertical-align: middle;
+}
+
+.navbar #menu{
+  list-style: none;
+  float: right;
+  /*글씨에 딱 맞는 박스 만들기*/
+  margin: 0;
+  padding: 0;
+}
+
+.navbar #menu li{
+  float: left;
+  margin-left: 30px;
+  line-height: 60px;
+}
+
+.navbar #menu li a{
+  text-decoration: none;
+  color: #545454;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+/* hero header */
+.hero-header{
+  height: 450px;
+  background-image: url("../images/hero_header.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* products */
+.products h3{
+  font-size: 24px;
+  color: #545454;
+  font-weight: bold;
+  
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.product-list{
+  width: 735px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product{
+  width: 225px;
+  text-align: center;
+  /*a 태그를 inline에서 block으로 바꿔주기 위해*/
+  display: block;
+  color: #545454;
+  text-decoration: none;
+  
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 80px;
+}
+
+.product-name{
+  margin-top: 20px;
+  margin-bottom: 4px;
+}
+
+.clearfix{
+  /*footer가 밑으로 쭉 내려오게 됨*/
+  clear: both;
+}
+
+/* footer */
+.footer{
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+.footer a{
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+}
