@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  min-width: 768px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* side navbar */
+
+#side-navbar {
+  background-color: black;
+  height: 100%;
+  width: 250px;
+  position: fixed;
+}
+
+#logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+#menu{
+  /*점 빼기*/
+  list-style: none;
+  padding-left: 22px;
+}
+
+#menu li:not(:last-child){
+  /*menu에 있는 list들 중 마지막 child 제외하고*/
+  margin-bottom: 30px;
+}
+
+#menu li a{
+  /*list의 a 태그에 적용*/
+  color: white;
+  text-decoration: none;
+}
+
+.icon{
+  margin-top: 85px;
+  text-align: center;
+}
+
+.icon a:first-child{
+  /*a 태그 중 첫 번째 child에게만 즉, facebook 아이콘에만*/
+  margin-right: 13px;
+}
+
+/* main */
+
+#main {
+  margin-left: 250px;
+}
+
+#main .hero-header {
+  text-align: center;
+  background-image: url("../images/hero_header.jpeg");
+  background-size: cover;
+  background-position: center center;
+  height: 750px;
+  line-height: 750px;
+}
+
+#main .info {
+  display: inline-block;
+  line-height: normal;
+  vertical-align: middle;
+}
+
+#main h1 {
+  margin: 0;
+  margin-bottom: 40px;
+  color: white;
+  font-size: 38px;
+}
+
+#main a {
+  padding: 10px 40px;
+  border: 2px solid white;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
